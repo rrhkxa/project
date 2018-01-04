@@ -1,0 +1,29 @@
+/**
+ * Created by zlf on 2017/7/4.
+ */
+require.config({
+    baseUrl:"http://asserts.xcarimg.com/web/task/editor/dist"||"./",//./
+    paths:{
+        jquery:'../extern/jquery-1.12.4.min',
+        tools:'../extern/base.util',
+        artTemplate:'../extern/template',
+        msgTpl:'editor.msg.tml.min',//提示信息模板
+        main:"editor.main.min",
+        draftModule:"editor.draft.module.min",
+        imgUploader:'editor.imgUploader.min',//图片上传组件
+        webuploader:'../extern/webuploader.min',
+        imgUploadModule:'editor.imgUpload.module.min',
+        cardTemplate:"editor.card.tml.min",//卡片模板
+        textModule:"editor.text.module.min",
+        videoUrlModule:"editor.videoUrl.module.min",
+        brow:"editor.brow.module.min",
+        browTml:"editor.brow.tml.min",
+        browJson:"editor.brow.min",
+        utils:"editor.utils.min",
+        jqueryUi:'../extern/jquery-ui.min',
+        xsortable:'editor.xsortable.min',
+        tips:"editor.tips.min",
+        pos:"editor.focus.manager.min"
+    },
+    urlArgs:"v=20171215"
+});
